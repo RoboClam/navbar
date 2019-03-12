@@ -16,6 +16,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { SolarComponent } from './solar/solar.component';
+import { FooterComponent } from './footer/footer.component';
+import { ScrollingComponent } from './scrolling/scrolling.component';
+import { MaterialTestComponent } from './material-test/material-test.component';
+
+import { MdcButtonModule, MdcIconModule} from '@angular-mdc/web';
 
 
 @NgModule({
@@ -28,6 +33,9 @@ import { SolarComponent } from './solar/solar.component';
     HeroFormComponent,
     ButtonsComponent,
     SolarComponent,
+    FooterComponent,
+    ScrollingComponent,
+    MaterialTestComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,6 +45,9 @@ import { SolarComponent } from './solar/solar.component';
     FormsModule,
     NgbModule.forRoot(),
     NgbCollapseModule,
+    MdcButtonModule,
+    MdcIconModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

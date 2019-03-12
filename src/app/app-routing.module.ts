@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { MessagesComponent } from './messages/messages.component';
 import { SolarComponent } from './solar/solar.component';
+import { ScrollingComponent } from './scrolling/scrolling.component';
+import { MaterialTestComponent } from './material-test/material-test.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -18,6 +20,8 @@ const routes: Routes = [
   { path: 'buttons', component: ButtonsComponent},
   { path: 'messages', component: MessagesComponent},
   { path: 'solar', component: SolarComponent},
+  { path: 'scroll', component: ScrollingComponent},
+  { path: 'material', component: MaterialTestComponent},
 ];
 
 @NgModule({

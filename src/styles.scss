@@ -1,0 +1,10 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~@angular-mdc/theme/material";
+
+$mdc-theme-primary: #1565c0; // primary color example
+$mdc-theme-secondary: #388e3c; // secondary color example
+
+body {
+    position: relative;
+    height: 100%;
+}

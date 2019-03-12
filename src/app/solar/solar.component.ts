@@ -4,7 +4,7 @@ import { ApiService } from '../api.service';
 @Component({
   selector: 'app-solar',
   templateUrl: './solar.component.html',
-  styleUrls: ['./solar.component.css']
+  styleUrls: ['./solar.component.scss']
 })
 export class SolarComponent implements OnInit {
   splitMe:String[];
