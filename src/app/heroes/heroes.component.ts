@@ -11,6 +11,7 @@ import { MessageService } from '../message.service';
 export class HeroesComponent implements OnInit {
 
   heroes: Hero[];
+  topHeroes: Hero[];
 
   constructor(private heroService: ApiService, private messageService: MessageService) { }
 
@@ -22,6 +23,7 @@ export class HeroesComponent implements OnInit {
     this.heroService.getHeroes()
       .then((result) => {
         this.heroes = result;
+        this.topHeroes = this.heroes.slice(1, 5);
       })
       .catch(err => {
         console.log("There are no heroes.");
