@@ -10,7 +10,10 @@ export class SolarComponent implements OnInit {
   splitMe:String[];
   sunrise:Date = new Date();
   sunset: Date = new Date();
-  constructor(private solarService: ApiService) { }
+  
+  constructor(private solarService: ApiService) { 
+    // To set a date use this at the end of the api: &date=2019-03-18
+  }
 
   ngOnInit() {
     this.getSunriseSunset();

@@ -1,3 +1,28 @@
 .margin-test {
     margin: 64px auto;
 }
+
+.hoverMe:hover {
+  background: linear-gradient(to right,#ff8a00,#da1b60);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.horizontal-line-static {
+    height: 4px;
+    background-color: #FF00E6;
+}
+
+.horizontal-line {
+    height: 4px;
+    background-color: #FF00E6;
+    animation: moveDown 3s linear infinite;
+    margin-bottom: 128px;
+}
+
+@keyframes moveDown {
+  to {
+     transform: translate(0, 132px);
+  }
+}
