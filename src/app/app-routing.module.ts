@@ -10,6 +10,7 @@ import { MessagesComponent } from './messages/messages.component';
 import { SolarComponent } from './solar/solar.component';
 import { ScrollingComponent } from './scrolling/scrolling.component';
 import { MaterialTestComponent } from './material-test/material-test.component';
+import { SpecialThanksComponent } from './special-thanks/special-thanks.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'solar', component: SolarComponent},
   { path: 'scroll', component: ScrollingComponent},
   { path: 'material', component: MaterialTestComponent},
+  { path: 'special-thanks', component: SpecialThanksComponent},
 ];
 
 @NgModule({

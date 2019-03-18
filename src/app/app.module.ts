@@ -21,6 +21,7 @@ import { ScrollingComponent } from './scrolling/scrolling.component';
 import { MaterialTestComponent } from './material-test/material-test.component';
 
 import { MdcButtonModule, MdcIconModule} from '@angular-mdc/web';
+import { SpecialThanksComponent } from './special-thanks/special-thanks.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { MdcButtonModule, MdcIconModule} from '@angular-mdc/web';
     FooterComponent,
     ScrollingComponent,
     MaterialTestComponent,
+    SpecialThanksComponent,
   ],
   imports: [
     BrowserModule,
