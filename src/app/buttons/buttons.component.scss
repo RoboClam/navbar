@@ -13,3 +13,22 @@
     overflow: hidden;
     color: red;
   }
+  
+
+@media (max-width: 765px) {
+  .btn-group {
+    display: block;
+  }
+  .btn {
+      width: 100%;
+  }
+  .dropup {
+    width: 100%;
+  }
+  nav .dropdown {
+    width: 100%;
+  }
+  nav .dropdown a {
+    text-align: center;
+  }
+}

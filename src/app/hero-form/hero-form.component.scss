@@ -10,6 +10,12 @@
     margin: 64px auto;
 }
 
+@media (max-width: 765px) {
+  .margin-test {
+      margin: 16px auto;
+  }
+}
+
 .material-button {
   background-color: #343a40;
   color: #ffffff;

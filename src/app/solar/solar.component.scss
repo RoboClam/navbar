@@ -2,6 +2,12 @@
     margin: 64px auto;
 }
 
+@media (max-width: 765px) {
+    .margin-test {
+        margin: 16px auto;
+    }
+}
+
 .hoverMe:hover {
   background: linear-gradient(to right,#ff8a00,#da1b60);
   background-clip: text;
